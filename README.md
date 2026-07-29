@@ -91,3 +91,122 @@ todo-app-js/
 │       └── data/
 │           └── demoData.js
 
+# les données que notre application va manipuler V1
+
+# les Objets metiers:
+Todo App
+
+│
+
+├── User
+
+├── Project
+
+├── Task
+
+└── Attachment
+
+# Objet 1 : User
+User
+
+id
+
+name
+
+email
+
+createdAt
+
+# Objet 2 : Project
+Project
+
+id
+
+name
+
+color
+
+icon
+
+description
+
+createdAt
+
+updatedAt
+
+# Objet 3 : Task
+Task
+
+id
+
+title
+
+description
+
+status
+
+priority
+
+dueDate
+
+estimatedTime
+
+reminder
+
+projectId
+
+attachments
+
+createdAt
+
+updatedAt
+
+# Objet 4 : Attachment(piece joinde)
+Attachment
+
+id
+
+fileName
+
+fileType
+
+fileSize
+
+url
+
+createdAt
+
+# Les relations
+
+Maintenant dessinons les relations.
+User
+
+│
+
+├───────────┐
+
+│           │
+
+▼           ▼
+
+Project     Project
+
+│
+
+├──────────────┐
+
+│              │
+
+▼              ▼
+
+Task          Task
+
+│
+
+├──────┐
+
+│      │
+
+▼      ▼
+
+Attachment
