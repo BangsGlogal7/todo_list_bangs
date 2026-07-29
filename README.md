@@ -210,3 +210,34 @@ Task          Task
 ▼      ▼
 
 Attachment
+
+# Notre cahier des charges V1
+Statuts
+✅ To Do
+✅ In Progress
+✅ Done
+Priorités
+✅ Low
+✅ Medium
+✅ High
+Champs d'une tâche
+✅ id
+✅ title
+✅ description (facultatif)
+✅ status
+✅ priority
+✅ dueDate (facultatif)
+✅ reminder (facultatif)
+✅ estimatedTime (facultatif)
+✅ attachments (prévu, avec une implémentation simple en V1)
+✅ projectId
+✅ createdAt
+✅ updatedAt
+Fonctionnalités V1
+✅ Ajouter une tâche
+✅ Modifier une tâche
+✅ Supprimer une tâche
+✅ Rechercher une tâche
+✅ Filtrer les tâches
+✅ Sauvegarder avec LocalStorage
+✅ Interface responsive (desktop et mobile)
